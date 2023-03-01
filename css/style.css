@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#navbar__logo{
+    width: 100%;
+    background-color: black;
+}
+
+#logo{
+    width: 15%;
+    /*background-color: aquamarine;*/
+    margin: 25px;
+}
+
+#main__informacion {
+   /* background-color: brown;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section__pokemon {
+   /* background-color: olive;*/
+    width: 540px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 2.5px orange;
+    overflow: hidden;
+}
+
+#section__pokemonNombre {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+#nombrePokemon {
+    /*background-color: bisque;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+#iconoFuego {
+    width: 8%;
+    /*background-color: aqua;*/
+}
+
+#pokemonPortada{
+    width: 100%;
+    height: 530px;
+}
+
+#pokemonImagen {
+    /*background-color: tomato;*/
+    width: 100%;
+    position: absolute;
+    width: 40%;
+}
+
+#pokemonGif{
+    width: 530px;
+    top: 35%;
+    position: absolute;
+    opacity: 0;
+
+    background-color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#pokemonGif:hover{
+    opacity: 1;
+}
+
+#section__informacionPokemon {
+    background-color: rgb(232, 108, 62);
+    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.listaDatos{
+   /* background-color: blue;*/
+    width: 50%;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#footer__informacion{
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.containerGaleria{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerGaleria figure{
+    border-radius: 8px;
+    background-color: orange;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+
+.containerGaleria figure img{
+   width: 120px;
+   height: 120px;
+   transition: 1s;
+   background-color: orange;
+   opacity: 1;
+}
+
+.containerGaleria figure:hover img{
+    opacity: 0.5;
+ }
+
+ .containerGaleria figure .texto{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 800px;
+    width: 120px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    opacity: 0;
+    transition: 1s;
+ }
+
+ .containerGaleria figure:hover .texto{
+    opacity: 1;
+ }
